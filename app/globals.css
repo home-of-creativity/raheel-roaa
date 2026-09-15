@@ -43,6 +43,8 @@
   --text-stat--line-height: 1;
   --text-lede: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
   --text-lede--line-height: 1.7;
+  --text-kicker: clamp(1.0625rem, 0.92rem + 0.7vw, 1.25rem);
+  --text-kicker--line-height: 1.2;
 
   /* Radii */
   --radius-card: 1.25rem;
@@ -133,30 +135,30 @@ body {
   padding-block: clamp(3.25rem, 2.2rem + 5vw, 9rem);
 }
 
-/* Eyebrow label with a leading hairline, mirrors under RTL */
+/* Section label with a leading hairline, mirrors under RTL */
 .kicker {
   display: inline-flex;
   align-items: center;
-  gap: 0.875rem;
-  font-size: 0.9375rem;
+  gap: 1rem;
+  font-size: var(--text-kicker);
   font-weight: 600;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: var(--text-kicker--line-height);
 }
 
 /* Uppercase is a no-op in Arabic and tracking harms letter joining. */
 [dir="rtl"] .kicker {
   letter-spacing: 0;
   text-transform: none;
-  font-size: 1.125rem;
+  font-size: clamp(1.25rem, 1.05rem + 0.9vw, 1.5rem);
 }
 
 .kicker::before {
   content: "";
   display: block;
-  width: 2.5rem;
-  height: 1px;
+  width: 3rem;
+  height: 1.5px;
   background: currentColor;
   opacity: 0.6;
 }
