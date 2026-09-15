@@ -1,0 +1,211 @@
+{
+  "intro": {
+    "tagline": "Raheel & Roaa",
+    "subtitle": "RAHEEL & ROAA: Its beginning is an experience and its end is trust",
+    "skip": "Skip",
+    "loading": "Preparing for takeoff...",
+    "loadingModel": "Loading aircraft...",
+    "cloudTitle": "Raheel & Roaa",
+    "story": "Every journey begins with a dream."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
+  },
+  "meta": {
+    "title": "Raheel & Roaa",
+    "description": "Professional tourism solutions connecting Syria with the world. RAHEEL & ROAA is a Syrian travel company with international experience."
+  },
+  "nav": {
+    "about": "About",
+    "journey": "Our Journey",
+    "services": "Services",
+    "achievements": "Achievements",
+    "whyUs": "Why Us",
+    "partners": "Partners",
+    "contact": "Contact",
+    "cta": "Contact Us",
+    "languageToggle": "العربية",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "kicker": "Raheel & Roaa",
+    "headlineLead": "Your journey begins with",
+    "headlineAccent": "vision",
+    "subheadline": "Professional tourism solutions connecting Syria with the world, from the ticket to the last detail on arrival.",
+    "ctaPrimary": "Start Your Journey",
+    "ctaSecondary": "Discover Our Services",
+    "proof": {
+      "since": {
+        "label": "Experience since",
+        "value": "2017"
+      },
+      "markets": {
+        "label": "Markets",
+        "value": "4"
+      },
+      "clients": {
+        "label": "Clients",
+        "value": "5,000+"
+      }
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "title": "RAHEEL & ROAA",
+    "body": "A Syrian tourism company founded in 2025 with operational experience dating back to 2017. Our journey began in Georgia and expanded across multiple international destinations, and today it returns to Syria with expertise built across four markets.",
+    "cta": "Follow our journey",
+    "caption": "A team that plans your journey in detail, before it begins.",
+    "mapHint": "Pick a destination to explore our route",
+    "mapLabel": "RAHEEL & ROAA route map across Georgia, Dubai, Riyadh, and Syria"
+  },
+  "journey": {
+    "kicker": "Our Journey",
+    "title": "Across borders, back to our roots",
+    "subtitle": "Four stops that built our expertise, and a return to where it all began.",
+    "steps": {
+      "georgia": {
+        "year": "2017",
+        "place": "Georgia",
+        "description": "The beginning of experience."
+      },
+      "dubai": {
+        "year": "2023",
+        "place": "Dubai",
+        "description": "Building international connections."
+      },
+      "riyadh": {
+        "year": "2025",
+        "place": "Riyadh",
+        "description": "Understanding the Gulf tourism market."
+      },
+      "syria": {
+        "year": "2026",
+        "place": "Syria",
+        "description": "Returning with global expertise."
+      }
+    }
+  },
+  "services": {
+    "kicker": "Concierge journey",
+    "title": "Our Services",
+    "subtitle": "A journey run as a private concierge: from the seat to the key, from the tarmac to the meeting.",
+    "cta": "Talk to our team",
+    "stageLabel": "Stage {current} of {total}",
+    "itinerary": "Journey itinerary",
+    "flights": {
+      "title": "Luxury Flights",
+      "lede": "Flight arrangements built around your time and comfort, not a public timetable.",
+      "items": [
+        "Business and first-class booking",
+        "Personalized travel arrangements",
+        "Care through to boarding"
+      ]
+    },
+    "destinations": {
+      "title": "Exclusive Destinations",
+      "lede": "International programmes with private experiences, away from crowded routes.",
+      "items": [
+        "Curated international tours",
+        "Private, one-to-one experiences",
+        "Journeys that are not repeated"
+      ]
+    },
+    "stays": {
+      "title": "Luxury Accommodation",
+      "lede": "Hotels and resorts chosen for the rhythm of your trip, not a generic list.",
+      "items": [
+        "Five-star hotels",
+        "Resorts and premium stays",
+        "Flexible stay arrangements"
+      ]
+    },
+    "transport": {
+      "title": "VIP Transportation",
+      "lede": "From arrivals to the hotel door, with no waiting and no improvisation.",
+      "items": [
+        "Airport meet and transfer",
+        "Luxury vehicles",
+        "Private driver"
+      ]
+    },
+    "business": {
+      "title": "Business Travel",
+      "lede": "Executive journeys arranged around the meeting, not around the fatigue of getting there.",
+      "items": [
+        "Corporate trips",
+        "Meeting coordination",
+        "Executive travel solutions"
+      ]
+    },
+    "tourism": {
+      "title": "Tourism Programmes",
+      "lede": "Organised programmes with local partners, from the first idea to the last detail on the ground.",
+      "items": [
+        "Guided group itineraries",
+        "Custom programmes for delegations",
+        "Coordination with tourism bodies"
+      ]
+    }
+  },
+  "achievements": {
+    "kicker": "By the numbers",
+    "title": "Our Achievements",
+    "clients": "Clients",
+    "services": "Services",
+    "satisfaction": "Customer Satisfaction"
+  },
+  "whyUs": {
+    "kicker": "Why us",
+    "title": "Why Choose RAHEEL & ROAA?",
+    "closing": "Choosing RAHEEL & ROAA means choosing experience and trust.",
+    "items": {
+      "international": {
+        "title": "International Experience",
+        "description": "Years of work across diverse destinations and tourism markets."
+      },
+      "satisfaction": {
+        "title": "Customer Satisfaction",
+        "description": "Our commitment to delivering an exceptional travel experience in every detail."
+      },
+      "professional": {
+        "title": "Professional Service",
+        "description": "A specialized team managing your journey efficiently from start to return."
+      },
+      "partnerships": {
+        "title": "Reliable Partnerships",
+        "description": "Established relationships with airlines, hotels, and service providers."
+      }
+    }
+  },
+  "partners": {
+    "kicker": "Our Partners",
+    "title": "A network we trust, and that trusts us",
+    "subtitle": "We work with accredited travel service providers in every destination we reach.",
+    "categories": {
+      "airlines": "Airlines",
+      "hotels": "Hotels",
+      "tourism": "Tourism Organizations",
+      "providers": "Service Providers"
+    }
+  },
+  "contact": {
+    "kicker": "Get in touch",
+    "title": "Ready for your next journey?",
+    "subtitle": "Message us on WhatsApp and we'll come back with a clear travel plan.",
+    "cta": "Chat on WhatsApp",
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "location": "Location",
+    "address": "Syria, Damascus, Al-Tal",
+    "mapTitle": "RAHEEL & ROAA office in Al-Tal, Damascus"
+  },
+  "whatsapp": {
+    "message": "Hello, I would like to inquire about RAHEEL & ROAA services."
+  },
+  "footer": {
+    "tagline": "Its beginning is an experience and its end is trust",
+    "navLabel": "Explore",
+    "rights": "All rights reserved."
+  }
+}
