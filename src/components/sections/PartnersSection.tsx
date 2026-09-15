@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { useTranslations } from "next-intl";
 import type { ReactNode } from "react";
 import { Reveal } from "@/src/components/ui/Reveal";
@@ -86,7 +86,7 @@ export function PartnersSection() {
             delay={0.12}
             className="relative overflow-hidden rounded-panel shadow-soft lg:col-start-2 lg:row-start-1"
           >
-            <Image
+            <PublicImage
               src="/media/partners-handshake.png"
               alt=""
               width={800}

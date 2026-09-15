@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useCallback, useState, type KeyboardEvent } from "react";
@@ -173,7 +173,7 @@ export function ServicesSection() {
             >
               <div className="relative h-[14.5rem] sm:h-[clamp(16rem,42vw,36rem)]">
                 {stages.map((item, index) => (
-                  <Image
+                  <PublicImage
                     key={item.key}
                     src={item.image}
                     alt={index === active ? t(`${item.key}.title`) : ""}

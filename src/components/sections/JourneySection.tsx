@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useRef } from "react";
@@ -38,7 +38,7 @@ export function JourneySection() {
       className="grain section-padding relative isolate overflow-hidden bg-ink text-paper"
     >
       {/* Anchored to the bottom edge so the visual's own title lockup crops away. */}
-      <Image
+      <PublicImage
         src="/media/journey-timeline.png"
         alt=""
         fill

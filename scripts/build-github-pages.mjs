@@ -18,6 +18,7 @@ try {
     env: {
       ...process.env,
       GITHUB_PAGES: "true",
+      NEXT_PUBLIC_BASE_PATH: process.env.NEXT_PUBLIC_BASE_PATH ?? "/raheel-roaa",
       NEXT_PUBLIC_SITE_URL: siteUrl,
     },
   });

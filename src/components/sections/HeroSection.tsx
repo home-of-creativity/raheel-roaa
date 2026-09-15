@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useRef } from "react";
@@ -46,7 +46,7 @@ export function HeroSection() {
       >
         {/* Scaled from the bottom edge so the key visual's own lockup and route map
             sit above the frame — only the skyline band is used as atmosphere. */}
-        <Image
+        <PublicImage
           src="/media/hero-beyond-borders.png"
           alt=""
           fill

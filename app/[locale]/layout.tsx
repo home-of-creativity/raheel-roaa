@@ -16,6 +16,7 @@ import { Footer } from "@/src/components/layout/Footer";
 import { ScrollProgress } from "@/src/components/ui/ScrollProgress";
 import { WhatsAppFab } from "@/src/components/ui/WhatsAppFab";
 import { travelAgencyJsonLd } from "@/src/lib/jsonLd";
+import { publicAsset } from "@/src/lib/publicPath";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -88,8 +89,8 @@ export async function generateMetadata({
       images: [{ url: `${baseUrl}/media/hero-beyond-borders.png`, width: 1400, height: 800 }],
     },
     icons: {
-      icon: "/media/logo.png",
-      apple: "/media/logo.png",
+      icon: publicAsset("/media/logo.png"),
+      apple: publicAsset("/media/logo.png"),
     },
   };
 }

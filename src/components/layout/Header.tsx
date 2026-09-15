@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
@@ -90,7 +90,7 @@ export function Header() {
           aria-label="RAHEEL & ROAA"
           onClick={() => setOpen(false)}
         >
-          <Image
+          <PublicImage
             src="/media/logo.png"
             alt=""
             width={44}

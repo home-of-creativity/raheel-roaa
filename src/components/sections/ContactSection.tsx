@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { getTranslations } from "next-intl/server";
 import { CompassMark } from "@/src/components/brand/CompassMark";
 import { Button } from "@/src/components/ui/Button";
@@ -64,7 +64,7 @@ export async function ContactSection({ locale }: { locale: string }) {
       id="contact"
       className="grain relative isolate overflow-hidden bg-ink py-16 text-paper sm:py-24 lg:py-28"
     >
-      <Image
+      <PublicImage
         src="/media/contact-journey.png"
         alt=""
         fill

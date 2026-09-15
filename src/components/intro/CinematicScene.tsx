@@ -5,6 +5,7 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { useMemo, useRef } from "react";
 import * as THREE from "three";
 import { clone } from "three/examples/jsm/utils/SkeletonUtils.js";
+import { publicAsset } from "@/src/lib/publicPath";
 
 export type CinematicRefs = {
   camera: THREE.PerspectiveCamera;
@@ -21,7 +22,7 @@ type CinematicSceneProps = {
   reducedFx: boolean;
 };
 
-const AIRPLANE_URL = "/rahil_roaa_greybox.glb";
+const AIRPLANE_URL = publicAsset("/rahil_roaa_greybox.glb");
 const LOOK = new THREE.Vector3(0, 0.4, 0);
 const SKY = new THREE.Color("#9ec8e8");
 const CLOUD_TEXT = "Raheel & Roaa";

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/src/components/ui/Reveal";
 import { SectionHeading } from "@/src/components/ui/SectionHeading";
@@ -21,7 +21,7 @@ export function WhyUsSection() {
               aria-hidden="true"
             />
             <div className="relative overflow-hidden rounded-panel shadow-raised">
-              <Image
+              <PublicImage
                 src="/media/team-professional.png"
                 alt=""
                 width={800}

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { getTranslations } from "next-intl/server";
 import { RouteMap } from "@/src/components/brand/RouteMap";
 import { Button } from "@/src/components/ui/Button";
@@ -41,7 +41,7 @@ export async function AboutSection() {
 
         <Reveal delay={0.1} className="relative mt-20">
           <div className="relative overflow-hidden rounded-panel">
-            <Image
+            <PublicImage
               src="/media/about-consultation.png"
               alt=""
               width={1400}

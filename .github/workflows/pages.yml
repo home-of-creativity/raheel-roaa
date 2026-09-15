@@ -30,6 +30,7 @@ jobs:
       - name: Build static site
         env:
           GITHUB_PAGES: "true"
+          NEXT_PUBLIC_BASE_PATH: /raheel-roaa
           NEXT_PUBLIC_SITE_URL: https://home-of-creativity.github.io/raheel-roaa
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: node scripts/build-github-pages.mjs

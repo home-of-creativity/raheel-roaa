@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { PublicImage } from "@/src/components/ui/PublicImage";
 import { getTranslations } from "next-intl/server";
 import { PHONES, buildWhatsAppUrl } from "@/src/lib/whatsapp";
 
@@ -23,7 +23,7 @@ export async function Footer() {
       <div className="section-shell grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <Image src="/media/logo.png" alt="" width={48} height={48} className="h-12 w-12" />
+            <PublicImage src="/media/logo.png" alt="" width={48} height={48} className="h-12 w-12" />
             <span className="leading-tight">
               <span className="block font-arabic text-base font-semibold text-paper">رحيل ورؤى</span>
               <span className="block text-[0.6rem] font-medium uppercase tracking-[0.28em] text-gold/80">
